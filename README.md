@@ -1,9 +1,9 @@
 # MongoDB-DataBase-Connection-Using-Node-Express
-# MongoDb DataBase Connection Node.js Express.js
 # install Express Using Command `npm i express`
 
 
-`const express = require('express');
+```js
+const express = require('express');
 const mongoose = require("mongoose");
 const app = express();
 
@@ -21,4 +21,5 @@ mongoose.connect('mongodb://localhost:27017/dbconnection', (err) => {
 
 app.listen(port,()=>{
     console.log('server is connected as : '+port);
-})`
+});
+```
