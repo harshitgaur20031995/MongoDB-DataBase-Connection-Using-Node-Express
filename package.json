@@ -1,0 +1,25 @@
+{
+  "name": "mongodb-database-connection-using-node-express",
+  "version": "1.0.0",
+  "description": "MongoDb Simple Connection ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitgaur20031995/MongoDB-DataBase-Connection-Using-Node-Express.git"
+  },
+  "author": "HarshitGaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitgaur20031995/MongoDB-DataBase-Connection-Using-Node-Express/issues"
+  },
+  "homepage": "https://github.com/harshitgaur20031995/MongoDB-DataBase-Connection-Using-Node-Express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9",
+    "nodemon": "^2.0.6"
+  }
+}
